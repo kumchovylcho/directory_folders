@@ -29,7 +29,7 @@ def count_nested_directories(path: str):
 
 def prepare_result(start_path, dir_list, indent=2):
     output = [f"Base Path -> {start_path}",
-              f"Nested Folders -> {len(dir_list) + 1}",
+              f"Most Nested Folders -> {len(dir_list)}",
               "Tree Structure:"]
 
     indent_setter = 0
